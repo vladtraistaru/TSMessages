@@ -234,6 +234,16 @@ canBeDismissedByUser:(BOOL)dismissingEnabled
                 currentString = @"warning";
                 break;
             }
+            case TSMessageNotificationTypeCustomBlue:
+            {
+                currentString = @"customBlue";
+                break;
+            }
+            case TSMessageNotificationTypeCustomGreen:
+            {
+                currentString = @"customGreen";
+                break;
+            }
                 
             default:
                 break;
